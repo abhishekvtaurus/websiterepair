@@ -2,6 +2,12 @@
 	.header-nav .nav {
 	margin: 0 auto;float:right;
 }
+.more-link {
+	padding: 5px 27%;
+}
+.base-header {
+	padding-bottom: 0;
+}
 .slide-caption {
 	width: 80%;
 }
@@ -14,10 +20,22 @@
 }
 }
 @media (max-width:995px){
+	.app-repair-page,.app-repair-page img {text-align:center;margin:0 auto;}
+	.app-repair-page #about .fa{display:none;}
+	.word-chose .text-right {text-align:center;}
+	.about-us-area img{margin:0 auto;}
+	.wor img{padding:15px 0;}
 .header-nav .nav {
 	padding-top: 0px;
 	float: right;text-align:center
 	margin: 0 10%;
+}
+.carousel-inner {
+ height: auto;
+}
+.slide-caption {
+    position: absolute;
+top: 50%!important;
 }
 .pricing-box {
   padding: 16px;
@@ -29,7 +47,47 @@
 .bs-wrap{margin-top:15px;}
 }
 @media (max-width:767px){
-	.more-link {
+	.header-nav.navbar-collapse.collapse.in li a {
+	text-align: left;
+}
+	.wor-repair-page img {text-align:center;margin:0 auto;}
+	.wor-repair-page,.wor-repair-page img {text-align:center;margin:0 auto;}
+	.wor-repair-page .row {margin:0 auto;}
+	.wor-repair-page #about .fa{display:none;}
+
+	.about-us-area img {
+	width: 100%;
+}
+
+.nav .ser-in {
+	position: relative;
+	text-align: left;
+	width: auto;
+	margin-left: 0 !important;
+	top: 0px !important;
+	padding: 0 16px !important;
+}
+.services-style-two .icon-box img {
+	padding-top: 41px;
+}
+.pricing-box {
+	padding: 33px 0 !important;
+	text-align: center;
+}
+
+.pricing-box:last-child {
+	padding: 33px 0 50px!important;
+	text-align: center;
+}
+.services-style-two.pad-50{padding-top:0px!important;}
+.single-item.top {
+	text-align: center;
+}
+.about-us-area .iocn-holder img {
+	width: auto;
+}
+.iocn-holder
+.more-link {
   padding: 5px 41%;
 }
 	.slide-caption h1 {
@@ -37,17 +95,17 @@
 	font-size: 30px;
 }
 .navbar-toggle {
-	border: 1px solid #fff;
+	border: 1px solid #000;
 	border-radius: 4px;
 	width: auto;
 	top: 25px;
 	margin-left: 15px;
 }
 .navbar-toggle .icon-bar {
-	background: #fff;
+	background: #000;
 }
 .navbar-toggle .icon-bar + .icon-bar {
-	margin-top: 2px;
+	margin-top: 3px;
 }
 .header-nav .nav {
 	float: none;;
@@ -86,10 +144,17 @@
 	.icon-content {
 	width: 80%;
 }
-
+.nav .ser-in {
+	left: 69px !important;
+	top: -12px;
+	text-align: left;
+}
 .slide-caption ul {
 display:none;
 }
 }
 @media (max-width:345px){
+.icon-content {
+	padding-top: 0;
+}
 }
